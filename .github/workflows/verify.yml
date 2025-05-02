@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   deps:
-    #Apache License 2.0 from RunC
+    name: Verify dependencies
     runs-on: ubuntu-24.04
     steps:
     - uses: actions/checkout@v4
